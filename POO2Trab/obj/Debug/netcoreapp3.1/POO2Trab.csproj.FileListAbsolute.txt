@@ -1,0 +1,13 @@
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\bin\Debug\netcoreapp3.1\POO2Trab.exe
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\bin\Debug\netcoreapp3.1\POO2Trab.deps.json
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\bin\Debug\netcoreapp3.1\POO2Trab.runtimeconfig.json
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\bin\Debug\netcoreapp3.1\POO2Trab.runtimeconfig.dev.json
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\bin\Debug\netcoreapp3.1\POO2Trab.dll
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\bin\Debug\netcoreapp3.1\POO2Trab.pdb
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\obj\Debug\netcoreapp3.1\POO2Trab.csprojAssemblyReference.cache
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\obj\Debug\netcoreapp3.1\POO2Trab.AssemblyInfoInputs.cache
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\obj\Debug\netcoreapp3.1\POO2Trab.AssemblyInfo.cs
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\obj\Debug\netcoreapp3.1\POO2Trab.csproj.CoreCompileInputs.cache
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\obj\Debug\netcoreapp3.1\POO2Trab.dll
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\obj\Debug\netcoreapp3.1\POO2Trab.pdb
+C:\Users\PICHAU\Desktop\Bagunça\Facul\POO2\POO2Trab\obj\Debug\netcoreapp3.1\POO2Trab.genruntimeconfig.cache
