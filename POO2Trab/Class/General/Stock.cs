@@ -112,5 +112,9 @@ namespace POO2Trab
                 return quant;
             }
         }
+    
+        public List<ProductsInStock> GetListOfProducts(){
+            return products_list;
+        }
     }
 }

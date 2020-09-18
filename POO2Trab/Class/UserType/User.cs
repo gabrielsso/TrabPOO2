@@ -68,7 +68,7 @@ namespace POO2Trab
             Console.WriteLine("Digite o código do pedido: ");
             Console.Write("\nCódigo:");
             int order_id = int.Parse(Console.ReadLine());
-            order_id = Check_Order_ID(order_id);
+            order_id = Check_If_OrderID_Valid(order_id);
 
             Console.WriteLine("---------------------------");
             Console.WriteLine("Digite qual loja gostaria de comprar:");
@@ -188,6 +188,7 @@ namespace POO2Trab
             }
         }
 
+        //Verificação se existe a loja no sistema
         private int Check_Store_ID(int ID)
         {
             bool check = false;
@@ -215,7 +216,8 @@ namespace POO2Trab
             return ID;
         }
 
-        private int Check_Order_ID(int order_id)
+        //Verificação se o ID do pedido já está registrado no sistema.
+        private int Check_If_OrderID_Valid(int order_id)
         {
             bool check = true;
             while (check)

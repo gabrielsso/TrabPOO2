@@ -135,5 +135,14 @@ namespace POO2Trab
             return orders_to_deliver.Find(x => x.GetOrderId() == id);
         }
 
+        //Manda lista de pedidos incompletos para registro
+        public List<Orders> Send_Incomplete_Orders_to_Save(){
+            return orders_to_deliver;
+        }
+
+        //Manda lista dos pedidos já entreges para registro
+        public List<Orders> Send_Complete_Orders_to_Save(){
+            return orders_complete;
+        }
     }
 }

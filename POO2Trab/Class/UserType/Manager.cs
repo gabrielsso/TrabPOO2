@@ -62,7 +62,7 @@ namespace POO2Trab
                 Console.WriteLine("---------------------------");
                 Console.Write("\nCódigo: ");
                 store_cod = int.Parse(Console.ReadLine());
-                store_cod = Store_ID_Verification(store_cod);
+                store_cod = Check_If_StoreID_Valid(store_cod);
             }
             Product_SubMenu(choice);
         }
@@ -104,6 +104,7 @@ namespace POO2Trab
             }
         }
 
+        //Adiciona produto na loja designada.
         public void Add_product(Stock stk){
             int id = 0;
             do
@@ -128,6 +129,7 @@ namespace POO2Trab
             stk.AddProductToList(id, nome, preco, quant);
         }
 
+        //Menu para interação com o sistema das lojas.
         public void Store_Menu(){
             int choice = 0;
             while (choice != 3)
@@ -160,6 +162,7 @@ namespace POO2Trab
             }
         }
 
+        //Cria uma loja
         private void Create_Store(){
             Console.Write("Digite o código para a loja: ");
             int id = int.Parse(Console.ReadLine());
@@ -177,6 +180,7 @@ namespace POO2Trab
             str.Add(unit);
         }
 
+        //Mostra todas as lojas registrada no sistema
         private void Display_AllStores(){
             if(str.Count == 0){
                 Console.WriteLine("Nenhuma loja registrada no sistema.");
@@ -192,6 +196,8 @@ namespace POO2Trab
                 Console.WriteLine("---------------------------\n");
         }
 
+
+        //Verificando se já existe uma loja com a mesma ID
         private int Check_Store_ID(int ID){
             bool check = true;
             while (check)
@@ -222,7 +228,8 @@ namespace POO2Trab
             return ID;
         }
 
-        private int Store_ID_Verification(int ID){
+        //Verifica se o ID providenciado está registrado no sistema.
+        private int Check_If_StoreID_Valid(int ID){
             bool check = true;
             while (check)
             {
@@ -230,7 +237,8 @@ namespace POO2Trab
                 {
                     if (item.GetID() == ID)
                     {
-                        check = false;  
+                        check = false;
+                        break;
                     }else{
                         check = true;
                         Console.WriteLine("Loja inválida.");
@@ -254,14 +262,5 @@ namespace POO2Trab
             return ID;
         }
     
-        private bool Check_For_Products(Store store){
-            Stock stk = store.GetStock();
-            if(stk.AmountOfProducts() == 0){
-                Console.WriteLine("A loja não possui produtos registrados.");
-                return false;
-            }
-
-            return true;
-        }
     }
 }

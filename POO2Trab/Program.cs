@@ -60,6 +60,9 @@ namespace POO2Trab
                 } 
             
             }
+
+            SaveArquives sa = new SaveArquives();
+            sa.Save(deliverSector, strs, ords);
         }
     }
 }
